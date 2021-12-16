@@ -1,0 +1,176 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+li {
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-primary:focus, .btn-outline-primary:focus {
+    background-color: blueviolet;
+    box-shadow: 0px 0px blueviolet;
+    color: white;
+}
+
+.btn-primary:active:focus, .btn-outline-primary:active:focus {
+    box-shadow: 0px 0px 0px 0.25rem rgb(175, 113, 233);
+}
+
+.login__parent {
+    display: flex;
+    height: 750px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    padding-top:80px;
+}
+.resetpassword__parent{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#ebebe0;
+    
+}
+.instruction-box{
+	border-style:solid;
+	border-radius:5px;
+	background-color:#fafab9;
+}
+.password__instruction{
+	padding-top:50px;
+	padding-bottom:65px;
+}
+.forgotpassword__parent {
+    padding-top:150px;
+    background-image: url("https://agroland.ie/wp-content/uploads/2018/08/background-colors-for-web-pages-excellent-design-page-new-color-1024x640.jpg");
+}
+.register__form{
+	padding-top:15px;
+}
+.login__button{
+	padding-top:55px;
+}
+.register__parent {
+	padding-top:50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color:#31d1d6;
+}
+
+.forgotpassword__page, .login__page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login__heading
+{
+	padding-bottom:40px;
+}
+.login__form
+{
+	margin-bottom:38px;
+}
+.login__heading > p, .register__heading > p, .forgotpassword__heading > p {
+    font-weight: bold;
+}
+
+.login__form,  .forgotpassword__form {
+    padding: 20px;
+}
+
+.login__form > form {
+    width: 390px;
+}
+
+.register__form > form {
+	
+    width: 350px;
+}
+.outer{
+	border-radius:5px;
+}
+.login__form > form > div > input, .register__form > form > div > input, select {
+    border-radius: 5px;
+    
+}
+
+.forgotpassword__form > form > div > input {
+    border-radius: 5px;
+    width: 350px;
+    font-weight: bold;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: blueviolet;
+    box-shadow: 0px 0px 0 3px blueviolet;
+}
+
+.login__button, .register__button, .forgotpassword__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login__button > button, .register__button > button, .forgotpassword__button > button {
+    font-weight: bold;
+    border: none;
+}
+
+.gotologin__button {
+    display: flex;
+    justify-content: center;
+}
+
+.login__newuser {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 53px;
+    padding-right: 38px;
+}
+
+.description {
+    margin-top: 25px;
+}
+#password_message
+{
+	border-color:white;
+	border-radius:5px;
+}
+.reset__password__body {
+    padding: 30px 100px 0px 100px;
+}
+
+/*Error Message Styles */
+
+.form-control.invalid__input, .form-select.invalid__input {
+    border-color: red;
+}
+
+#email_id_message, #password_message, #name_message, #employee_id_message, #security_question_message, #confirm_password_message, #mobile_number_message, #keyword_message, #answer_message, #new_password_message, #confirm_password_message {
+    font-weight: bold;
+    color: red;
+    margin: 10px;
+}
+
+.incorrect_password {
+    color: red;
+}

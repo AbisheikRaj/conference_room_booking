@@ -1,0 +1,19 @@
+.home_page_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_page_header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.home_parent {
+    background-color:#4db3b3;
+    height: 929px;
+}
